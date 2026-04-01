@@ -1,0 +1,13 @@
+[package]
+name = "virtual-keyboard"
+version = "0.1.0"
+authors = ["Zellij Contributors"]
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zellij-tile = { path = "../../zellij-tile" }
+zellij-tile-utils = { path = "../../zellij-tile-utils" }
